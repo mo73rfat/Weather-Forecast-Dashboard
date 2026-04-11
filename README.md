@@ -4,6 +4,14 @@ A high-performance, production-ready **Full Stack Weather Dashboard** built with
 
 ---
 
+# 🌐 Live Demo
+
+You can access the live deployed version of the project here:
+
+👉 https://weather-forecast-dashboard-sable.vercel.app/
+
+---
+
 ## 👤 Developer Information
 - **Name:** Mohammad Arafat
 - **Role:** Full Stack Developer
@@ -36,6 +44,16 @@ A high-performance, production-ready **Full Stack Weather Dashboard** built with
 - **Adaptive Dark Mode**: Seamlessly switches between light and dark themes based on system preference or manual toggle.
 - **Skeleton Loaders**: Professional loading states to ensure a smooth perceived performance.
 - **Responsive Design**: Mobile-first approach using **Tailwind CSS** for a flawless look on any device.
+
+---
+
+## ⚠️ Recent Searches Storage (Important Note)
+
+### **Since this project uses a local JSON file (data/searches.json) to store recent search history**
+- **In Vercel (Production Environment), the filesystem is read-only / ephemeral, meaning:**
+   - **Recent searches may not persist permanently**
+   - **Data can be reset on server restart or cold starts**
+   - **This behavior is expected in serverless deployments**
 
 ---
 
