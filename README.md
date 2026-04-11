@@ -129,3 +129,10 @@ The project follows a modular and scalable architecture, separating concerns bet
 ├── types/                  # TypeScript Interfaces & Definitions
 ├── public/                 # Static Assets (Icons, Screenshots)
 └── data/                   # Server-side persistent storage (JSON)
+
+This project requires environment variables to run correctly.
+
+Create a `.env.local` file in the root directory and add the following:
+
+OPENWEATHERMAP_API_KEY=your_api_key_here
+NEXT_PUBLIC_APP_URL=http://localhost:3000
