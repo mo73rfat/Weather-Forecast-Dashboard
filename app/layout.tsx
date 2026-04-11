@@ -51,7 +51,39 @@ export default function RootLayout
           }
         />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} min-h-screen flex flex-col m-0 p-0 bg-white dark:bg-slate-950 transition-colors duration-300`}>
+        <main className="flex-1 w-full flex flex-col">
+          {children}
+        </main>
+        <footer
+            className="w-full py-6 border-t backdrop-blur-md"
+            style={{
+              background: "var(--bg-card)",
+              borderColor: "var(--border)",
+              color: "var(--text-secondary)",
+            }}
+          >
+          <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-500 dark:text-slate-400">
+            <div className="font-medium">
+              Developed by <a href="https://mo73rfat.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">Mohammad Arafat</a>
+            </div>
+            <div className="flex items-center gap-2">
+              <span>Weather data provided by</span>
+              <a 
+                href="https://openweathermap.org/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="font-semibold hover:text-blue-500 transition-colors underline underline-offset-4"
+              >
+                OpenWeatherMap
+              </a>
+            </div>
+            <div className="text-xs opacity-75">
+              © {new Date( ).getFullYear()} • All rights reserved.
+            </div>
+          </div>
+        </footer>
+      </body>
     </html>
   );
 }

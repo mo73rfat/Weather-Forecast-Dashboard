@@ -1,26 +1,32 @@
 [
   {
-    "id": 1775851870729,
+    "id": 1775931671407,
     "city": "Amman",
     "country": "JO",
-    "searchedAt": "2026-04-10T20:11:10.729Z"
+    "searchedAt": "2026-04-11T18:21:11.407Z"
   },
   {
-    "id": 1775851831214,
-    "city": "Aqaba",
-    "country": "JO",
-    "searchedAt": "2026-04-10T20:10:31.214Z"
+    "id": 1775855637449,
+    "city": "Gaza",
+    "country": "PS",
+    "searchedAt": "2026-04-10T21:13:57.449Z"
   },
   {
-    "id": 1775851818374,
+    "id": 1775854380262,
     "city": "Irbid Governorate",
     "country": "JO",
-    "searchedAt": "2026-04-10T20:10:18.374Z"
+    "searchedAt": "2026-04-10T20:53:00.262Z"
   },
   {
-    "id": 1775851510780,
+    "id": 1775853952325,
     "city": "Zarqa",
     "country": "JO",
-    "searchedAt": "2026-04-10T20:05:10.780Z"
+    "searchedAt": "2026-04-10T20:45:52.325Z"
+  },
+  {
+    "id": 1775853941490,
+    "city": "Aqaba",
+    "country": "JO",
+    "searchedAt": "2026-04-10T20:45:41.490Z"
   }
 ]

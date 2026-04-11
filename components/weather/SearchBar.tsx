@@ -186,7 +186,7 @@ export function SearchBar
                 onKeyDown={handleKeyDown}
                 placeholder="Search for a city..."
                 disabled={disabled}
-                className="flex-1 px-3 py-4 bg-transparent outline-none text-base"
+                className="flex-1 min-w-0 px-3 py-4 bg-transparent outline-none text-base"
                 style={{ color: "var(--text-primary)" }}
                 autoComplete="off"
                 spellCheck={false}

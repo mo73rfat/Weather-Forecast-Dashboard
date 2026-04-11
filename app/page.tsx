@@ -75,10 +75,7 @@ export default function HomePage()
   );
 
   return (
-    <div
-      className="min-h-screen"
-      style={{ background: "var(--bg-primary)" }}
-    >
+    <div className="flex-1" style={{ background: "var(--bg-primary)" }}>
       {/* Header */}
       <header
         className="sticky top-0 z-40 border-b"
@@ -143,36 +140,6 @@ export default function HomePage()
           )}
         </section>
       </main>
-
-      {/* Footer */}
-      <footer
-        className="border-t mt-16 py-6 text-center text-sm"
-        style={{ borderColor: "var(--border)", color: "var(--text-muted)" }}
-      >
-        <p>
-          Developed by{" "}
-          <a
-            href="https://www.mo73rfat.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ color: "var(--accent)" }}
-          >
-            Mohammad Arafat
-          </a>
-        </p>
-
-        <p className="mt-2">
-          Weather data provided by{" "}
-          <a
-            href="https://openweathermap.org"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ color: "var(--accent)" }}
-          >
-            OpenWeatherMap
-          </a>
-        </p>
-      </footer>
     </div>
   );
 }
